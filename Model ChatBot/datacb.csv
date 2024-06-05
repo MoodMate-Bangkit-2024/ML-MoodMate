@@ -1,0 +1,263 @@
+,inputs,tags
+0,halo,salam
+1,hai,salam
+2,test,salam
+3,p,salam
+4,P,salam
+5,Ping,salam
+6,hay,salam
+7,"halo, matebot",salam
+8,hello,salam
+9,hi,salam
+10,hey,salam
+11,nama kamu siapa?,nama
+12,kamu siapa?,nama
+13,lu siapa?,nama
+14,namamu siapa?,nama
+15,lu sape ?,nama
+16,siapa kamu?,nama
+17,nama?,nama
+18,Selamat pagi,pagi
+19,pagi,pagi
+20,Selamat siang,siang
+21,siang,siang
+22,Selamat sore,sore
+23,Selamat malam,malam
+24,malam,malam
+25,malem,malam
+26,selamat malem,malam
+27,apa kabar?,kabar
+28,bagaimana kabarmu?,kabar
+29,apa tugas kamu?,pekerjaan
+30,apa fungsimu?,pekerjaan
+31,apa tugasmu?,pekerjaan
+32,lu ngapain?,pekerjaan
+33,pekerjaan kamu apa?,pekerjaan
+34,kamu buat apa?,pekerjaan
+35,kamu bisa apa?,pekerjaan
+36,fungsi kamu buat apa?,pekerjaan
+37,kamu berfungsi untuk ngapain?,pekerjaan
+38,lu kerja apa?,pekerjaan
+39,tugas kamu apa?,pekerjaan
+40,tugas lo ngapain?,pekerjaan
+41,Siapa yang menciptakanmu?,cipta
+42,Bagaimana kamu dibuat?,cipta
+43,kamu terbuat dari apa?,cipta
+44,bagaimana caranya kamu dibangun?,cipta
+45,Bagaimana kamu diciptakan?,cipta
+46,Dimana kamu?,lokasi
+47,Dimana kamu tinggal?,lokasi
+48,Apa lokasimu?,lokasi
+49,kamu ada dimana?,lokasi
+50,kamu berada dimana?,lokasi
+51,kamu sedang dimana?,lokasi
+52,Apa yang kamu katakan?,salah
+53,Itu tidak masuk akal,salah
+54,Jawaban yang salah,salah
+55,saya rasa bukan seperti itu,salah
+56,Apakah kamu bodoh?,bodoh
+57,Kamu gila,bodoh
+58,Kamu bodoh,bodoh
+59,Apakah kamu bodoh?,bodoh
+60,kamu sangat bodoh,bodoh
+61,saya ingin bercerita,ingin bercerita
+62,aku ingin bercerita,ingin bercerita
+63,mau cerita,ingin bercerita
+64,ingin cerita,ingin bercerita
+65,boleh cerita?,ingin bercerita
+66,bolehkah saya bercerita?,ingin bercerita
+67,saya ingin mengungkapkan sesuatu,ingin bercerita
+68,Bolehkah saya bertanya sesuatu?,tanya
+69,saya ingin bertanya,tanya
+70,saya mau tanya,tanya
+71,saya pengen tanya,tanya
+72,tanya,tanya
+73,saya sedih,sedih
+74,lagi sedih,sedih
+75,aku sedih,sedih
+76,aku merasa sedih,sedih
+77,saya merasa sedih,sedih
+78,Saya merasa sangat tidak berharga.,tidak berguna
+79,saya merasa tidak berguna,tidak berguna
+80,Tidak ada yang menyukai saya.,tidak berguna
+81,Saya tidak bisa melakukan apa-apa.,tidak berguna
+82,Saya sangat tidak berguna,tidak berguna
+83,Tidak ada yang masuk akal lagi,tidak berguna
+84,Saya tidak bisa tahan lagi,depresi
+85,Saya sangat depresi,depresi
+86,Saya pikir saya depresi.,depresi
+87,Saya mengalami depresi,depresi
+88,saya merasa depresi,depresi
+89,Saya sangat stres,stressed
+90,Saya merasa terjebak,stressed
+91,Saya merasa stres,stressed
+92,Saya sangat kelelahan,stressed
+93,saya merasa tertekan dan stress,stressed
+94,ujian,default
+95,teman,default
+96,hubungan,default
+97,pacar,default
+98,pacar wanita,default
+99,keluarga,default
+100,uang,default
+101,masalah keuangan,default
+102,kuliah,default
+103,kerjaan,default
+104,Saya insecure,insecure
+105,saya merasa minder dengan orang lain,insecure
+106,saya merasa insecure,insecure
+107,saya selalu insecure,insecure
+108,saya merasa overthinking,overthinking
+109,Saya terlalu berlebihan dalam memikirkan suatu hal,overthinking
+110,Saya selalu overthinking,overthinking
+111,setiap waktu saya selalu merasa overthinking,overthinking
+112,Saya berpikir-berpikir yang berlebihan,overthinking
+113,Saya merasa sangat cemas.,anxious
+114,Saya sangat cemas karena,anxious
+115,saya selalu merasa khawatir,anxious
+116,saya selalu merasa cemas,anxious
+117,saya cemas,anxious
+118,Ibu saya meninggal,kematian
+119,Saudara saya meninggal,kematian
+120,Ayah saya meninggal,kematian
+121,Saudari saya meninggal,kematian
+122,Seseorang dalam keluarga saya meninggal,kematian
+123,Teman saya meninggal,kematian
+124,orang yang saya cintai meninggal,kematian
+125,hewan peliharaan saya mati,kematian
+126,kucing saya mati,kematian
+127,anjing saya mati,kematian
+128,sahabat saya meninggal,kematian
+129,Saya mengalami insomnia,tidur
+130,Saya menderita insomnia,tidur
+131,Saya tidak bisa tidur.,tidur
+132,Saya tidak tidur selama beberapa hari terakhir.,tidur
+133,Saya tidak bisa tidur.,tidur
+134,Saya tidak tidur dengan baik beberapa hari terakhir.,tidur
+135,saya sulit untuk tidur,tidur
+136,akhir-akhir saya sulit tidur,tidur
+137,saya kesulitan untuk tidur,tidur
+138,Saya ingin bunuh diri,bunuh diri
+139,Saya berpikir untuk bunuh diri.,bunuh diri
+140,Saya ingin mati,bunuh diri
+141,Saya akan bunuh diri,bunuh diri
+142,Saya akan melakukan bunuh diri,bunuh diri
+143,saya memikirkan untuk membunuh diri saya sendiri,bunuh diri
+144,Saya benci diri saya sendiri,hate
+145,saya sangat membenci diri saya,hate
+146,saya benci diri sendiri,hate
+147,mengapa saya membenci diri sendiri?,hate
+148,saya membenci diri saya,hate
+149,saya kesepian,sepi
+150,saya merasa kesepian,sepi
+151,saya hidup sendiri,sepi
+152,saya merasa sendiri,sepi
+153,saya sangat kesepian,sepi
+154,Tidak ada yang suka padaku,unlovable
+155,gak ada orang yang suka denganku,unlovable
+156,saya merasa bahwa saya tidak dapat disukai orang lain,unlovable
+157,saya merasa tidak disukai oleh semua orang,unlovable
+158,apakah saya patut disukai?,unlovable
+159,semua orang tidak menyukai saya,unlovable
+160,saya tidak disukai,unlovable
+161,Saya pikir saya jelek,ugly
+162,saya merasa saya jelek,ugly
+163,saya jelek,ugly
+164,saya jelek sekali,ugly
+165,saya tidak cantik,ugly
+166,saya tidak ganteng,ugly
+167,saya tidak tampan,ugly
+168,saya buruk rupa,ugly
+169,saya sangat jelek,ugly
+170,saya adalah korban bullying,bullying
+171,saya dibully,bullying
+172,banyak yang membully saya,bullying
+173,saya merasa diintimidasi,bullying
+174,saya tidak berani melaporkan kasus bullying,lapor
+175,saya tidak berani lapor kasus intimadasi,lapor
+176,saya takut melapor kasus bully,lapor
+177,Apa itu kesehatan mental?,ask1
+178,Definisikan Kesehatan Mental,ask1
+179,kesehatan mental itu apa sih?,ask1
+180,Apa itu Depresi?,ask2
+181,Definisikan Depresi,ask2
+182,Depresi itu apa sih?,ask2
+183,Bagaimana saya tahu jika saya mengalami depresi?,ask3
+184,Apakah saya depresi?,ask3
+185,Apakah saya menderita depresi?,ask3
+186,Apakah saya sakit mental?,ask3
+187,Apa perbedaan antara kecemasan dan stres?,ask4
+188,apa bedanya cemas dan stres?,ask4
+189,Apa perbedaan antara kesedihan dan depresi?,ask5
+190,perbedaan antara kesedihan dan depresi,ask5
+191,apa bedanya kesedihan dan depresi?,ask5
+192,Apa penyebab depresi?,ask6
+193,Depresi disebabkan oleh?,ask6
+194,Depresi disebabkan karena apa?,ask6
+195,mood saya berubah-ubah,ask7
+196,mood saya berubah2,ask7
+197,mengapa mood saya berubah dengan cepat?,ask7
+198,saya sering mengalami perubahan mood yang cepat,ask7
+199,"saya moody-an, mood saya berubah dengan cepat",ask7
+200,emosi saya berubah-berubah,ask7
+201,mood saya tidak stabil,ask7
+202,emosi saya tidak stabil,ask7
+203,Berapa lama kecemasan bisa bertahan?,ask8
+204,berapa lama rasa cemas bertahan?,ask8
+205,berapa lama saya harus merasa cemas?,ask8
+206,Bagaimana cara mengurangi kecemasan?,ask9
+207,bagaimana saya mengurangi rasa cemas?,ask9
+208,hal apa yang harus saya lakukan jika merasa cemas?,ask9
+209,solusi untuk mengatasi cemas,ask9
+210,cara mengurangi kecemasan,ask9
+211,saya senang,senang
+212,saya merasa senang,senang
+213,saya merasa bahagia,senang
+214,aku bahagia,senang
+215,lagi bahagia,senang
+216,lagi senang,senang
+217,aku senang,senang
+218,saya marah,marah
+219,saya sedang marah,marah
+220,saya merasa marah,marah
+221,marah,marah
+222,Saya takut,takut
+223,saya ketakutan,takut
+224,saya merasa ketakutan,takut
+225,rekomendasi musik sedih,rekomendasisedih
+226,butuh hiburan sedih,rekomendasisedih
+227,musik sedih,rekomendasisedih
+228,film sedih,rekomendasisedih
+229,rekomendasi musik senang,rekomendasisenang
+230,butuh hiburan senang,rekomendasisenang
+231,musik senang,rekomendasisenang
+232,film senang,rekomendasisenang
+233,rekomendasi musik marah,rekomendasimarah
+234,butuh hiburan marah,rekomendasimarah
+235,musik marah,rekomendasimarah
+236,film marah,rekomendasimarah
+237,ingin mendengar,rekomendasimarah
+238,rekomendasi musik takut,rekomendasitakut
+239,butuh hiburan takut,rekomendasitakut
+240,musik takut,rekomendasitakut
+241,film takut,rekomendasitakut
+242,selamat tinggal,perpisahan
+243,Terima Kasih!,perpisahan
+244,Thankyou,perpisahan
+245,Thanks!,perpisahan
+246,sampai jumpa,perpisahan
+247,dadah,perpisahan
+248,bye,perpisahan
+249,goodbye,perpisahan
+250,see you,perpisahan
+251,sampai nanti,perpisahan
+252,sudah itu saja,perpisahan
+253,itu saja,perpisahan
+254,terimakasih,perpisahan
+255,makasih,perpisahan
+256,Itu saja.,selesai
+257,Saya tidak punya lagi yang ingin dikatakan,selesai
+258,Tidak ada lagi,selesai
+259,Itu saja yang ingin saya katakan,selesai
+260,"Tidak, itu saja",selesai
+261,sudah itu saja,selesai
