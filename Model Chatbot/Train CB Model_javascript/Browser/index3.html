@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test TensorFlow.js Model</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+</head>
+<body>
+    <h1>Test TensorFlow.js Model</h1>
+    <div>
+        <input type="text" id="userInput" placeholder="Type your message here">
+        <button onclick="predictResponse()">Get Response</button>
+    </div>
+    <div>
+        <h3>Response:</h3>
+        <p id="responseOutput"></p>
+    </div>
+    <script>
+        let model;
+        let wordIndex;
+        let intents;
+        const maxLen = 12;
+
+        // Load data.json
+        async function loadIntents() {
+            const response = await fetch('data.json'); 
+            const data = await response.json();
+            intents = data.intents;
+        }
+
+        // Load word_index.json
+        async function loadWordIndex() {
+            const response = await fetch('word_index.json'); 
+            wordIndex = await response.json();
+        }
+
+        // preprocess
+        function removePunctuationAndLowercase(text) {
+            return text.toLowerCase().replace(/[^\w\s]/gi, '');
+        }
+
+        function padSequences(sequences, maxLen) {
+            return sequences.map(seq => {
+                const padding = new Array(maxLen - seq.length).fill(0);
+                return padding.concat(seq).slice(-maxLen);
+            });
+        }
+
+        // Load model
+        async function loadModel() {
+            model = await tf.loadLayersModel('tfjs_model/model.json'); // Path relatif ke model.json
+            console.log('Model loaded');
+        }
+
+        // predict
+        async function predictResponse() {
+            const userInput = document.getElementById('userInput').value;
+            const preprocessedInput = removePunctuationAndLowercase(userInput).split(' ').map(word => wordIndex[word] || 0);
+            const paddedInput = padSequences([preprocessedInput], maxLen);
+            const tensorInput = tf.tensor2d(paddedInput, [1, maxLen]);
+
+            const prediction = model.predict(tensorInput);
+            const predictedIndex = prediction.argMax(-1).dataSync()[0];
+            const predictedTag = intents[predictedIndex].tag;
+
+            // response for predicted tag
+            const response = intents.find(intent => intent.tag === predictedTag).responses[0];
+            document.getElementById('responseOutput').innerText = response;
+        }
+
+        // Load data, wordIndex, and model 
+        window.onload = async () => {
+            await loadIntents();
+            await loadWordIndex();
+            await loadModel();
+        };
+    </script>
+</body>
+</html>
