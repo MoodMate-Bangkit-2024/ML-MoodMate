@@ -48,8 +48,6 @@ In the MoodMate-ML project, various libraries and tools are used for data proces
 - **emoji** (`import emoji`): For handling emojis in text.
 - **nltk**: For various NLP tasks.
   - **word_tokenize**: Splits text into words.
-  - **stopwords**: Removes common words that are not meaningful.
-  - **CRFTagger**: Tags words with their part of speech.
 
 #### Indonesian Language Processing
 - **Sastrawi** (`from Sastrawi.Stemmer.StemmerFactory import StemmerFactory`): For stemming Indonesian words.
