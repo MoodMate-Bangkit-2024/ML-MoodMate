@@ -89,7 +89,7 @@ The MoodMate-ML project includes two primary features: Mood Detection from Journ
 This feature classifies user journal entries into one of four mood labels: anger, sadness, fear, and joy.
 
 #### Training and Validation Accuracy
-The model was trained and validated using a dataset of 2,023,902 entries. Below are the accuracy metrics for training and validation:
+The model was trained and validated using a prepared dataset. Below are the accuracy metrics for training and validation:
 
 - **Training Accuracy**: 90.4%
 - **Validation Accuracy**: 78.71%
