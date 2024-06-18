@@ -20,13 +20,16 @@ This document provides a comprehensive overview of the machine learning methodol
 ## Datasets
 Our project leverages multiple datasets sourced from various repositories to support diverse aspects of our research and development. These datasets are integral for training and evaluating our machine learning models and algorithms.
 
-The specific datasets used include:
+The specific datasets for journalling feature include:
 * [MoodDetection](https://github.com/diapica/EmotionDetection/blob/29d486253662d435b61930654bdc224709efa86e/Dataset/Twitter_Emotion_Dataset.csv)
 * [Emotion-Dataset-from-Indonesian-Public-Opinion](https://github.com/Ricco48/Emotion-Dataset-from-Indonesian-Public-Opinion/tree/3368985e79b08309af6b13fcc75901036a107974/Emotion%20Dataset%20from%20Indonesian%20Public%20Opinion)
 * [Data_MoodTracker](https://github.com/codewithriza/MoodTracker/blob/ed6078071d2a64ec7c54068fc318c9bab0215976/NLP-Text-Emotion/data/emotion_dataset_2.csv)
 * [Emotions Data for NLP](https://www.kaggle.com/datasets/praveengovi/emotions-dataset-for-nlp?select=train.txt)'
 
 Additionally, we have merged several part of these datasets into a consolidated dataset available at [dataset](https://github.com/MoodMate-Bangkit-2024/ML-MoodMate/blob/fe898a39ac08109d7d01c92d894a299d2300840d/Model/DataDict/databagus.csv). This merged dataset contains entries categorized into four mood labels: Anger, Fear, Sadness, and Happiness. For training our models, we have utilized a dataset comprising 23.546 rows of data.
+
+For the chatbot feature, we built the dataset ourselves by creating several keywords, including input, tags, and responses. Each input is associated with specific tags that help categorize the type of query or statement. Based on these tags, the chatbot can select appropriate responses from the dataset. 
+* [Data for chatbot](https://github.com/MoodMate-Bangkit-2024/ML-MoodMate/blob/main/Model%20Chatbot/Python%20Model/content.json)
 
 ## Library
 
